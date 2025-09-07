@@ -1,5 +1,0 @@
-{
-  "name": "Event Genesis AI",
-  "description": "An agentic AI event planner that uses Gemini to brainstorm, plan logistics, coordinate vendors, and manage your event from start to finish.",
-  "requestFramePermissions": []
-}
