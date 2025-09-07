@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  # Set the Node.js version here if needed, e.g., NODE_VERSION = "22"
+
+# The following redirect is important for single-page applications like React.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
